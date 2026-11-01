@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>الدمشقي للسياحة والسفر وخدمات العمرة</title>
+    <meta
+      name="description"
+      content="الدمشقي للسياحة والسفر: تذاكر طيران لكل بلدان العالم، فيزا سريعة، موافقات دخول، حملات عمرة ورحلات سياحية داخلية وخارجية. دمشق، الطلياني."
+    />
+    <meta name="theme-color" content="#ec6233" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ar_SY" />
+    <meta property="og:title" content="الدمشقي للسياحة والسفر" />
+    <meta property="og:description" content="إنت اختار الوجهة والدمشقي بيتكفّل بالباقي." />
+    <meta property="og:image" content="images/logo.png" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Readex+Pro:wght@300;400;500;600&display=swap"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "الدمشقي للسياحة والسفر وخدمات العمرة",
+        "alternateName": "Al-Dimashqi Travel",
+        "logo": "images/logo.png",
+        "telephone": ["+963935111077", "+963113312108"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "الطلياني، بناء معهد الحضارة، الطابق 3، مكتب رقم 9",
+          "addressLocality": "دمشق",
+          "addressCountry": "SY"
+        },
+        "sameAs": [
+          "https://www.instagram.com/dimashqi_travel",
+          "https://www.facebook.com/profile.php?id=61583339243367"
+        ]
+      }
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+    <a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+
+    <!-- Header -->
+    <header class="site-header" data-header>
+      <div class="container site-header__inner">
+        <a href="#top" class="brand" aria-label="الدمشقي للسياحة والسفر، الصفحة الرئيسية">
+          <span class="brand__icon" aria-hidden="true">
+            <img
+              class="brand__icon-img brand__icon-img--orange"
+              src="images/logo-icon-orange.png"
+              alt=""
+              width="310"
+              height="501"
+            />
+            <img
+              class="brand__icon-img brand__icon-img--white"
+              src="images/logo-icon-white.png"
+              alt=""
+              width="310"
+              height="501"
+            />
+          </span>
+          <span class="brand__text">
+            <b class="brand__name">الدمشقي</b>
+            <small class="brand__tagline">TRAVEL TOURISM &amp; UMRAH</small>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="القائمة الرئيسية">
+          <ul class="site-nav__list" id="site-nav-list" data-nav-list>
+            <li><a href="#trips">الرحلات</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#gallery">الوجهات</a></li>
+            <li><a href="#location">موقعنا</a></li>
+            <li><a href="#contact">احجز</a></li>
+          </ul>
+        </nav>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="فتح القائمة"
+          aria-controls="site-nav-list"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img class="hero__photo" src="images/hero.webp" alt="" fetchpriority="high" />
+
+        <div class="container hero__content">
+          <span class="pill">من دمشق لكل وجهات العالم ✈</span>
+          <h1 class="hero__title" id="hero-title" data-split-words>
+            إنت اختار
+            <em class="script">الوجهة</em>
+            والدمشقي
+            <em class="script">بيتكفّل</em>
+            بالباقي.
+          </h1>
+        </div>
+
+        <div class="container hero__footer">
+          <p class="hero__lead">
+            تذاكر طيران لكل بلدان العالم، فيزا سريعة، موافقات دخول، حملات عمرة ورحلات سياحية داخل سوريا
+            وخارجها.
+          </p>
+          <a href="#trips" class="btn btn--ghost">
+            اكتشف الرحلات
+            <span class="btn__arrow" aria-hidden="true">←</span>
+          </a>
+        </div>
+
+        <span class="hero__scroll-cue" aria-hidden="true"></span>
+      </section>
+
+      <!-- Destinations marquee -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track" data-marquee></div>
+      </div>
+
+      <!-- Packages -->
+      <section class="section" id="trips" aria-labelledby="trips-title">
+        <div class="container">
+          <header class="section-head">
+            <div data-reveal>
+              <span class="eyebrow">باقاتنا المختارة</span>
+              <h2 id="trips-title">
+                رحلات
+                <em class="script">لازم</em>
+                تعيشها
+              </h2>
+            </div>
+            <div data-reveal style="--reveal-delay: 0.12s">
+              <p class="section-head__lead">
+                من لبنان ومصر للبلقان، ولحملات العمرة. باقات فيها الطيران والإقامة والتنقلات، وإنت بس جهّز
+                حالك.
+              </p>
+              <a href="#contact" class="link-underline">
+                احجز مقعدك
+                <span class="btn__arrow" aria-hidden="true">←</span>
+              </a>
+            </div>
+          </header>
+
+          <div class="package-grid" data-packages></div>
+
+          <div class="local-trips">
+            <header class="local-trips__head" data-reveal>
+              <h3>
+                رحلات
+                <em class="script">داخلية</em>
+                ليوم واحد
+              </h3>
+              <span>أيام الجمعة والسبت، من دمشق</span>
+            </header>
+            <div class="local-trips__list" data-local-trips></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="section section--tinted" id="services" aria-labelledby="services-title">
+        <div class="container services">
+          <div class="services__intro">
+            <div data-reveal>
+              <span class="eyebrow">خدماتنا</span>
+              <h2 id="services-title">
+                كل اللي
+                <em class="script">بتحتاجه</em>
+                <br />
+                لسفرك
+                <em class="script">بمكان</em>
+                واحد
+              </h2>
+            </div>
+            <div data-reveal style="--reveal-delay: 0.1s">
+              <p class="services__lead">
+                من مكتبنا بالطلياني منرتّبلك كل شي: من التذكرة والفيزا لحتى الفندق والبرنامج. خبرة وتعامل
+                مريح، ومتابعة لحد ما ترجع بالسلامة.
+              </p>
+              <dl class="stats">
+                <div class="stat">
+                  <dt class="stat__label">متابع على إنستغرام</dt>
+                  <dd class="stat__value">
+                    <span data-count-to="5700">5,700</span>
+                    +
+                  </dd>
+                </div>
+                <div class="stat">
+                  <dt class="stat__label">مكتبنا بقلب دمشق</dt>
+                  <dd class="stat__value">الطلياني</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+
+          <ul class="service-stack" data-reveal style="--reveal-delay: 0.15s" data-service-stack>
+            <li class="service-card">
+              <h3 class="service-card__heading">
+                <button
+                  class="service-card__toggle"
+                  type="button"
+                  id="service-1-toggle"
+                  aria-expanded="false"
+                  aria-controls="service-1-panel"
+                >
+                  <span class="service-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M2.5 13.5l19-8-5.5 15-3.5-6.5zM12.5 14l9-8.5" /></svg>
+                  </span>
+                  <span class="service-card__title">تذاكر حول بلدان العالم</span>
+                  <span class="service-card__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="service-card__panel"
+                id="service-1-panel"
+                role="region"
+                aria-labelledby="service-1-toggle"
+              >
+                <div class="service-card__panel-inner">
+                  <p class="service-card__text">
+                    حجز تذاكر طيران من دمشق لكل الوجهات، بأفضل المواعيد والأسعار المتاحة.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="service-card">
+              <h3 class="service-card__heading">
+                <button
+                  class="service-card__toggle"
+                  type="button"
+                  id="service-2-toggle"
+                  aria-expanded="false"
+                  aria-controls="service-2-panel"
+                >
+                  <span class="service-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <rect x="4" y="3" width="16" height="18" rx="2" />
+                      <path d="M8 8h8M8 12h8M8 16h5" />
+                    </svg>
+                  </span>
+                  <span class="service-card__title">فيزا سريعة</span>
+                  <span class="service-card__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="service-card__panel"
+                id="service-2-panel"
+                role="region"
+                aria-labelledby="service-2-toggle"
+              >
+                <div class="service-card__panel-inner">
+                  <p class="service-card__text">
+                    منتابع معاملة التأشيرة خطوة بخطوة لتطلع بأسرع وقت وبدون تعقيد.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="service-card">
+              <h3 class="service-card__heading">
+                <button
+                  class="service-card__toggle"
+                  type="button"
+                  id="service-3-toggle"
+                  aria-expanded="false"
+                  aria-controls="service-3-panel"
+                >
+                  <span class="service-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18" />
+                    </svg>
+                  </span>
+                  <span class="service-card__title">موافقات دخول</span>
+                  <span class="service-card__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="service-card__panel"
+                id="service-3-panel"
+                role="region"
+                aria-labelledby="service-3-toggle"
+              >
+                <div class="service-card__panel-inner">
+                  <p class="service-card__text">
+                    استخراج موافقات الدخول للدول اللي بتطلبها، مع تجهيز الأوراق المطلوبة.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="service-card">
+              <h3 class="service-card__heading">
+                <button
+                  class="service-card__toggle"
+                  type="button"
+                  id="service-4-toggle"
+                  aria-expanded="false"
+                  aria-controls="service-4-panel"
+                >
+                  <span class="service-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M5 21V10l7-5 7 5v11M9 21v-6h6v6M12 2v3" /></svg>
+                  </span>
+                  <span class="service-card__title">حملات العمرة</span>
+                  <span class="service-card__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="service-card__panel"
+                id="service-4-panel"
+                role="region"
+                aria-labelledby="service-4-toggle"
+              >
+                <div class="service-card__panel-inner">
+                  <p class="service-card__text">
+                    حملات منظمة لمكة المكرمة والمدينة المنورة، بفنادق قريبة ومشرف طول الرحلة.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="section section--flush-bottom" id="gallery" aria-labelledby="gallery-title">
+        <div class="container">
+          <div class="gallery-card" data-reveal>
+            <img class="gallery-card__photo" src="images/gallery.webp" alt="" loading="lazy" />
+            <div class="gallery-card__content">
+              <button class="play-button" type="button" aria-label="شاهد الوجهات" data-lightbox-open>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z" /></svg>
+              </button>
+              <h2 id="gallery-title">
+                رحلتنا
+                <em class="script">بالصور</em>
+              </h2>
+              <p>شوف شو بيخلّي كل تجربة معنا مختلفة.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section" id="stories" aria-labelledby="stories-title">
+        <div class="container">
+          <header class="testimonials__head">
+            <div data-reveal>
+              <h2 id="stories-title">
+                حكايات
+                <em class="script">حقيقية</em>
+                <br />
+                من مسافرينا
+              </h2>
+              <span class="sample-note" data-sample-note hidden>نماذج للعرض: استبدلها بتقييمات عملائكم</span>
+            </div>
+            <div class="slider-controls">
+              <button class="round-button" type="button" aria-label="السابق" data-slider-prev>→</button>
+              <button
+                class="round-button round-button--filled"
+                type="button"
+                aria-label="التالي"
+                data-slider-next
+              >
+                ←
+              </button>
+            </div>
+          </header>
+
+          <div class="testimonials__body">
+            <span class="testimonials__quote" aria-hidden="true">”</span>
+            <div class="slider" data-slider>
+              <div class="slider__track" data-slider-track></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location -->
+      <section class="location" id="location" aria-labelledby="location-title">
+        <div class="container location__inner">
+          <div class="location__info">
+            <span class="eyebrow eyebrow--line" data-reveal>موقعنا</span>
+            <h2 class="location__title" id="location-title" data-reveal style="--reveal-delay: 0.08s">
+              زورونا
+              <em class="script">بالطلياني</em>، أو
+              <br />
+              راسلونا
+              <em class="script">من مكانكم.</em>
+            </h2>
+
+            <ul class="location__list" data-reveal style="--reveal-delay: 0.16s">
+              <li class="location__item">
+                <span class="location__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z" />
+                    <circle cx="12" cy="9.5" r="2.5" />
+                  </svg>
+                </span>
+                <span>
+                  <b>الطلياني، دمشق</b>
+                  <small>بقلب العاصمة</small>
+                </span>
+              </li>
+              <li class="location__item">
+                <span class="location__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <rect x="5" y="3" width="14" height="18" rx="1" />
+                    <path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2M11 21v-3h2v3" />
+                  </svg>
+                </span>
+                <span>
+                  <b>بناء معهد الحضارة</b>
+                  <small>الطابق الثالث، مكتب رقم 9</small>
+                </span>
+              </li>
+              <li class="location__item">
+                <span class="location__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M5 3h4l2 5-2.5 1.5a11 11 0 005 5L15 12l5 2v4a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2"
+                    />
+                  </svg>
+                </span>
+                <span>
+                  <b class="ltr">+963 935 111 077</b>
+                  <small>موبايل وواتساب</small>
+                </span>
+              </li>
+              <li class="location__item">
+                <span class="location__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M3 9.5C3 7 6.5 5 12 5s9 2 9 4.5V11h-4V9.5H7V11H3z" /><path d="M6 13h12l1 7H5z" /><circle cx="12" cy="16.5" r="1.6" />
+                  </svg>
+                </span>
+                <span>
+                  <b class="ltr">011 331 2108</b>
+                  <small>هاتف المكتب</small>
+                </span>
+              </li>
+            </ul>
+
+            <div class="location__actions" data-reveal style="--reveal-delay: 0.24s">
+              <a class="btn btn--brand" href="https://wa.me/963935111077" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2z"
+                  />
+                </svg>
+                راسلنا على واتساب
+              </a>
+              <a
+                class="btn btn--outline-light"
+                href="https://www.google.com/maps/search/?api=1&amp;query=%D9%85%D8%B9%D9%87%D8%AF%20%D8%A7%D9%84%D8%AD%D8%B6%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D9%8A%D8%A7%D9%86%D9%8A%20%D8%AF%D9%85%D8%B4%D9%82"
+                target="_blank"
+                rel="noopener"
+              >
+                افتح على خرائط Google
+              </a>
+            </div>
+          </div>
+
+          <div class="map-card" data-map>
+            <span class="map-card__badge">مخطط توضيحي للموقع</span>
+            <svg
+              class="map"
+              viewBox="0 0 640 480"
+              role="img"
+              aria-label="مخطط يوضّح موقع مكتب الدمشقي في بناء معهد الحضارة بالطلياني"
+            >
+              <defs>
+                <mask id="route-reveal" maskUnits="userSpaceOnUse">
+                  <path
+                    class="map__route-mask"
+                    pathLength="1"
+                    d="M0 352 H150 Q178 352 178 324 V250 Q178 228 200 228 H440 Q468 228 468 200 V176"
+                  />
+                </mask>
+                <radialGradient id="pin-glow">
+                  <stop offset="0" stop-color="#ec6233" stop-opacity=".45" />
+                  <stop offset="1" stop-color="#ec6233" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+
+              <!-- streets -->
+              <g class="map__streets">
+                <rect x="0" y="214" width="640" height="28" />
+                <rect x="0" y="338" width="640" height="28" />
+                <rect x="164" y="0" width="28" height="480" />
+                <rect x="392" y="0" width="28" height="480" />
+                <path class="map__street-line" d="M0 228 H640 M0 352 H640 M178 0 V480 M406 0 V480" />
+              </g>
+
+              <!-- blocks -->
+              <g class="map__blocks">
+                <rect style="--i: 0" x="20" y="20" width="126" height="78" rx="10" />
+                <rect style="--i: 1" x="20" y="116" width="126" height="80" rx="10" />
+                <rect style="--i: 2" x="210" y="20" width="164" height="176" rx="10" />
+                <rect style="--i: 3" x="438" y="20" width="182" height="96" rx="10" />
+                <rect style="--i: 4" x="20" y="260" width="126" height="60" rx="10" />
+                <rect style="--i: 5" x="210" y="260" width="164" height="60" rx="10" />
+                <rect style="--i: 6" x="438" y="260" width="182" height="60" rx="10" />
+                <rect style="--i: 7" x="20" y="384" width="126" height="76" rx="10" />
+                <rect style="--i: 8" x="210" y="384" width="164" height="76" rx="10" />
+                <rect style="--i: 9" x="438" y="384" width="182" height="76" rx="10" />
+                <rect class="map__park" style="--i: 10" x="232" y="44" width="120" height="128" rx="60" />
+              </g>
+
+              <text class="map__area" x="86" y="64" text-anchor="middle">الطلياني</text>
+              <text class="map__area map__area--faint" x="529" y="296" text-anchor="middle">وسط دمشق</text>
+
+              <!-- route -->
+              <path
+                class="map__route"
+                mask="url(#route-reveal)"
+                d="M0 352 H150 Q178 352 178 324 V250 Q178 228 200 228 H440 Q468 228 468 200 V176"
+              />
+              <circle class="map__traveler" r="6">
+                <animateMotion
+                  data-map-motion
+                  begin="indefinite"
+                  dur="4.5s"
+                  repeatCount="indefinite"
+                  path="M0 352 H150 Q178 352 178 324 V250 Q178 228 200 228 H440 Q468 228 468 200 V176"
+                />
+              </circle>
+
+              <!-- destination building -->
+              <g class="map__target">
+                <rect x="438" y="134" width="182" height="62" rx="12" />
+                <text x="556" y="171" text-anchor="middle">بناء معهد الحضارة</text>
+              </g>
+
+              <!-- pin -->
+              <g class="map__pin" transform="translate(468 150)">
+                <circle class="map__pin-glow" r="46" fill="url(#pin-glow)" />
+                <circle class="map__pin-ring" r="16" />
+                <circle class="map__pin-ring map__pin-ring--late" r="16" />
+                <g class="map__pin-drop">
+                  <path d="M0 0 C-14 -14 -18 -24 -18 -32 A18 18 0 0 1 18 -32 C18 -24 14 -14 0 0Z" />
+                  <circle cx="0" cy="-32" r="6.5" />
+                </g>
+              </g>
+
+              <!-- label -->
+              <g class="map__label" transform="translate(468 70)">
+                <rect x="-92" y="-26" width="184" height="52" rx="14" />
+                <text class="map__label-title" y="-3" text-anchor="middle">مكتب الدمشقي</text>
+                <text class="map__label-sub" y="16" text-anchor="middle">الطابق 3 · مكتب 9</text>
+              </g>
+
+              <!-- compass -->
+              <g class="map__compass" transform="translate(600 440)">
+                <circle r="18" />
+                <path d="M0 -12 L5 0 L0 12 L-5 0Z" />
+                <text y="-24" text-anchor="middle">N</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Booking -->
+      <section class="booking" id="contact" aria-labelledby="booking-title">
+        <div class="container">
+          <h2 class="booking__title" id="booking-title" data-reveal>
+            جاهز
+            <em class="script">تنطلق</em>
+            <br />
+            برحلة
+            <em class="script">جديدة؟</em>
+          </h2>
+          <p class="booking__lead" data-reveal style="--reveal-delay: 0.1s">
+            لا تخلّي رحلة أحلامك تضل حلم. احكيلنا وين بدك تروح ونحنا منرتبلك كل شي، من الحجز لحد الرجعة.
+          </p>
+
+          <form class="booking-form" data-booking-form data-reveal style="--reveal-delay: 0.2s" novalidate>
+            <div class="booking-form__body" data-booking-body>
+              <div class="form-grid">
+                <div class="field">
+                  <input
+                    class="field__input"
+                    id="booking-name"
+                    name="name"
+                    placeholder=" "
+                    autocomplete="name"
+                    required
+                  />
+                  <label class="field__label" for="booking-name">الاسم الكامل</label>
+                </div>
+                <div class="field">
+                  <input
+                    class="field__input"
+                    id="booking-phone"
+                    name="phone"
+                    placeholder=" "
+                    inputmode="tel"
+                    autocomplete="tel"
+                    required
+                  />
+                  <label class="field__label" for="booking-phone">رقم الهاتف / واتساب</label>
+                </div>
+                <div class="field field--full">
+                  <select
+                    class="field__input"
+                    id="booking-destination"
+                    name="destination"
+                    data-destination-select
+                  >
+                    <option>عمرة</option>
+                    <option>لبنان</option>
+                    <option>مصر</option>
+                    <option>البلقان (صربيا وألبانيا)</option>
+                    <option>رحلة داخلية</option>
+                    <option>تذكرة طيران</option>
+                    <option>فيزا أو موافقة دخول</option>
+                    <option>وجهة أخرى</option>
+                  </select>
+                  <label class="field__label field__label--static" for="booking-destination">
+                    الوجهة اللي بتهمك
+                  </label>
+                </div>
+              </div>
+
+              <div class="booking-form__actions">
+                <label class="checkbox">
+                  <input type="checkbox" id="booking-terms" name="terms" checked />
+                  بإرسال الطلب أوافق على
+                  <b>الشروط والأحكام</b>
+                </label>
+                <button class="btn btn--dark" type="submit">
+                  أرسل الطلب
+                  <span class="btn__arrow" aria-hidden="true">←</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="night-band">
+          <img
+            class="night-band__photo"
+            src="images/footer.webp"
+            alt="دمشق في الليل من جبل قاسيون"
+            loading="lazy"
+          />
+          <div class="container night-band__content">
+            <p>كل اللي بتحتاجه لسفرك بمكان واحد</p>
+            <ul class="chips">
+              <li>تذاكر طيران</li>
+              <li>فيزا سريعة</li>
+              <li>موافقات دخول</li>
+              <li>حملات عمرة</li>
+              <li>رحلات خارجية</li>
+              <li>رحلات داخلية</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <nav aria-label="اكتشف">
+            <h2 class="footer-grid__title">اكتشف</h2>
+            <ul>
+              <li><a href="#top">الرئيسية</a></li>
+              <li><a href="#services">من نحن</a></li>
+              <li><a href="#trips">باقات الرحلات</a></li>
+              <li><a href="#stories">آراء المسافرين</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="الخدمات">
+            <h2 class="footer-grid__title">الخدمات</h2>
+            <ul>
+              <li><a href="#services">تذاكر طيران</a></li>
+              <li><a href="#services">فيزا سريعة</a></li>
+              <li><a href="#services">موافقات دخول</a></li>
+              <li><a href="#contact">نموذج الحجز</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="الرحلات">
+            <h2 class="footer-grid__title">الرحلات</h2>
+            <ul>
+              <li><a href="#trips">حملات العمرة</a></li>
+              <li><a href="#trips">رحلات خارجية</a></li>
+              <li><a href="#trips">رحلات داخلية</a></li>
+              <li><a href="#gallery">الوجهات</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="الدعم">
+            <h2 class="footer-grid__title">الدعم</h2>
+            <ul>
+              <li><a href="#contact">الأسئلة الشائعة</a></li>
+              <li><a href="#contact">خدمة العملاء</a></li>
+              <li><a href="#contact">الشروط والأحكام</a></li>
+              <li><a href="#contact">سياسة الاسترجاع</a></li>
+            </ul>
+          </nav>
+
+          <address class="footer-contact">
+            <h2 class="footer-grid__title">تواصل معنا</h2>
+            <ul>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M5 3h4l2 5-2.5 1.5a11 11 0 005 5L15 12l5 2v4a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2"
+                  />
+                </svg>
+                <span>
+                  <a class="ltr" href="tel:+963935111077">+963 935 111 077</a>
+                  <br />
+                  <a class="ltr" href="tel:+963113312108">011 331 2108</a>
+                </span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z" />
+                  <circle cx="12" cy="9.5" r="2.5" />
+                </svg>
+                <span>دمشق، الطلياني، بناء معهد الحضارة، الطابق 3، مكتب رقم 9</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                </svg>
+                <a
+                  class="ltr"
+                  href="https://www.instagram.com/dimashqi_travel"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  @dimashqi_travel
+                </a>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14 8h3V4h-3a4 4 0 00-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z" />
+                </svg>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61583339243367"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  صفحتنا على فيسبوك
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="site-footer__bottom">
+          <a href="#top" class="footer-logo" aria-label="الدمشقي، العودة للأعلى">
+            <img
+              src="images/logo-white.png"
+              alt="الدمشقي للسياحة والسفر وخدمات العمرة"
+              width="443"
+              height="630"
+              loading="lazy"
+            />
+          </a>
+          <small>
+            ©
+            <span data-year>2026</span>
+            الدمشقي للسياحة والسفر وخدمات العمرة. جميع الحقوق محفوظة.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp shortcut -->
+    <a
+      class="whatsapp-fab"
+      href="https://wa.me/963935111077"
+      target="_blank"
+      rel="noopener"
+      aria-label="راسلنا على واتساب"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 001.8-1.2 2.2 2.2 0 00.1-1.2c0-.1-.2-.2-.4-.3z"
+        />
+      </svg>
+    </a>
+
+    <!-- Destinations lightbox -->
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="معرض الوجهات" data-lightbox hidden>
+      <button class="lightbox__close" type="button" aria-label="إغلاق" data-lightbox-close>×</button>
+      <div class="lightbox__stage" data-lightbox-stage>
+        <p class="lightbox__caption" data-lightbox-caption aria-live="polite"></p>
+        <span class="lightbox__counter" data-lightbox-counter></span>
+        <div class="lightbox__progress" aria-hidden="true"><span data-lightbox-progress></span></div>
+      </div>
+      <button
+        class="lightbox__arrow lightbox__arrow--prev"
+        type="button"
+        aria-label="الصورة السابقة"
+        data-lightbox-prev
+      >
+        →
+      </button>
+      <button
+        class="lightbox__arrow lightbox__arrow--next"
+        type="button"
+        aria-label="الصورة التالية"
+        data-lightbox-next
+      >
+        ←
+      </button>
+    </div>
+  </body>
+</html>
